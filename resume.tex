@@ -1,60 +1,128 @@
-\documentclass{resume}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
 
-\name{John Q. Public}
-\address{ 4489 Oxford Lane \\ San Antonio, PA 90024  }
-\address{ 555~$\cdot$~356~$\cdot$~7936 \\ jpublic@example.edu }
+\documentclass{resume} % Use the custom resume.cls style
 
-\def\nameskip{\bigskip}
-\def\sectionskip{\medskip}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Alex Sulsky} % Your name
+\address{(917)~913~6586 \\ alex.sulsky@gmail.com} % Your phone number and email
+\address{908 Bomar St, Houston, Texas 77006} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
 
 \begin{document}
 
-  \begin{rSection}{Education}
-    {\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
-    { B.S. in Computer Science \& Engineering } \\
-    { Minor in Linguistics } \smallskip \\
-    { Member of Eta Kappa Nu } \\
-    { Member of Upsilon Pi Epsilon } \\
-    Overall GPA: 5.678
-  \end{rSection}
-  
-  \begin{rSection}{Experience}
-  
-    \begin{rSubsection}{ACME, Inc}{October 2010 - Present}{Web Developer}{Palo Alto, CA}
-    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-    \item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-    \item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-    \item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    \item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-    \item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
-    \end{rSubsection}
-  
-    \begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
-    \item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-    \item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-    \item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-    \item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-    \item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
-    \end{rSubsection}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION	
+%----------------------------------------------------------------------------------------
 
-    \begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
-    \item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-    \item Maecenas convallis ullamcorper ultricies stylesheets.
-    \item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-    \item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
-    \end{rSubsection}
-  
-  \end{rSection}
-  
-  \begin{rSection}{Technical Strengths}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-      Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
-      Protocols \& APIs & XML, JSON, SOAP, REST \\
-      Databases & MySQL, PostgreSQL, Microsoft SQL \\
-      Tools & SVN, Vim, Emacs
-    \end{tabular}
-  \end{rSection}
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Texas Children's Hospital, Houston, TX}{October, 2011 - Present}{Data Security Architect}{Houston, TX}{Texas Children's Hospital is a rapidly growing organization with around 12,000 employees. My work here involves developing security standards, advising IT projects on information security risks and best practices, and operating information security and application delivery systems. Also:}
+\item Served on the ``Architectural Review Committee'' to approve the design of proposed IT systems, create technical standards and advise policy.
+\item Built an application delivery system around F5's BIG-IP technologies using Global and Local Traffic Managers
+\item Set up two factor authentication for websites with a mix of  F5's Access Policy Manager (APM) and RSA's Adaptive Authentication.
+\item Federated authentication with service providers with SAML by way of F5's APM.
+\item Defended web applications through F5's Applications Security Manager, SourceFire NGIPS, and Arbor's Pravail APS
+\item Developed baseline security configurations for common OS’s and applications on NIST and CIS Benchmarks.
+\item Configured Symantec's Control \& Compliance Suite (CCS) to audit system compliance to configuration standards.
+\item Integrated Symantec's CCS with Symantec’s Data Leak Protection, Endpoint Protection, and Rapid7’s Nexpose vulnerability scan results for a more meaningful assessment of a system's risk.
+\item Regularly used common security tools including Checkpoint and Cisco firewalls, BlueCoat proxies, and RADIUS servers.
+\end{rSubsection}
+\begin{rSubsection}{Texas Children's Hospital, Houston, TX}{May, 2011 - October, 2011}{Enterprise Systems Engineer - Contract}{Houston, TX}{}
+\item Worked on improving Microsoft Active Directory Services, PKI, and Microsoft Exchange systems.
+\item Integrated Wifi authentication with Active Directory through RADIUS \& 802.1x capable APs
+\item Automated common administrative tasks through vbscript and powershell scripts.
+\end{rSubsection}
+%------------------------------------------------
+
+\begin{rSubsection}{Alvarez \& Marsal}{February, 2007 - November, 2010}{Sysadmin}{New York, NY}{At this global professional services firm, I was the lead for Microsoft Active Directory, Exchange, ISA and Windows Server platforms. I also:}
+\item Created detailed continuity and disaster recovery plans, for messaging, DNS and web services.
+\item Minimized disaster recovery times by integrating VMWare's Site Recovery Manager with EMC Clariion snapshot and mirroring services.
+\item Managed encryption tools: PGP, Bitlocker, EFS, and Safend.
+\item Built data center storage systems for Exchange, VMWare, file share, and backup around EMC Clariion
+\item Built branch office storage systems around FreeNAS, and HP Storageworks.
+\end{rSubsection}
+
+%------------------------------------------------
+\pagebreak
+\begin{rSubsection}{Katzenbach Partners LLC (Booz \& Co)}{December, 2002 - September, 2006}{Systems \& Networking Lead}{New York, NY}{As the technical lead at this management consulting firm, I deployed a majority of systems and networks.}
+\item Designed a highly available, multi-office WAN through dedicated inter-office frame relay links, backed by IPSec VPNs over the Internet.
+\item Designed a multi-homed data center by way of BGP-peering with two ISPs  
+\item Built a multi-site WLAN around Cisco APs and Active Directory-based authentication.
+\item Automated desktop deployment using Microsoft's Remote Installation Server and distributed filesystem storage.
+\item Led two Active Directory and Exchange upgrades, and worked with consultants to build an Exchange-integrated Avaya VoIP system.
+\item Secured systems, firewalls, and networking equipment using NSA, NIST, and vendor guidelines.
+\item Managed SonicWall/NetStructure, and Cisco firewalls. 
+\item Set up detailed network monitoring by displaying WMI, WBEM, SNMP counters and alerts in a WhatsUp Gold console.
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSubsection}{Comtex (Spherion)}{1997 - 2001}{Desktop, Server Support}{New York, NY}
+\item 
+\end{rSubsection}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications} 
+CISSP \#394506
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf Brooklyn College, CUNY} \hfill {\em June 2001} \\ 
+B.S. in Computer Science \bf(Incomplete)
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+
+% Protocols \& Standards & AAA; RADIUS; LDAP; ADSI; IPSec; PKI; SSL/TLS \\
+% & SSL VPN; DHCP; DNS; PGP; SAML;  SNMP; sFlow; \\ 
+Systems \& Tools & Load Balancers and Proxies; RSA's Adaptive Authentication\\
+& Nexpose; Firewalls; Nmap; Wireshark; Windows \& Linux\\
+Scripting \& API's & PowerShell; Bash\\
+GRC & ITIL; PCI; HIPAA; NIST; Risk Assessment; Vulnerability Assessment\\
+& Policy Development; Compliance Assessment; System Baseline standards\\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Technical Strengths}
+
+%System, Web, and Network Security; High Availability Infrastructure; Application Delivery Infrastructure.
+
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
 
 \end{document}
