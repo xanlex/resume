@@ -21,7 +21,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
-
+\usepackage{hyperref}
 \usepackage[left=0.65in,top=0.5in,right=0.65in,bottom=0.5in]{geometry} % Document margins
 
 \name{Alex Sulsky} % Your name
@@ -45,16 +45,6 @@ Information security architect with experience building, protecting and automati
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Experience}
-
-\begin{rSubsection}{Digital Crafts}{September, 2017 - January, 2018}{Student}{Houston, TX} 
- Accelerated School for Software Engineering - Full Stack Immersive Program
-  \begin{itemize}
-	\item {Introduced to application development using popular JavaScript and Python frameworks such as NodeJS, jQuery, React, Express, Flask, Tornado.}
-	\item {Worked with Postgresql and Firebase databases.}
-	\item {DevOps with AWS, Heroku, Dokku and Git.}
-	\item Built and deployed web applications using the above tools.
- \end{itemize}
-\end{rSubsection}
 
 \begin{rSubsection}{Macquarie Bank Ltd.}{May, 2015 - April, 2017}{Network Security Engineer}{Houston, TX}
   \begin{itemize}
@@ -123,29 +113,44 @@ Information security architect with experience building, protecting and automati
         \item Set up detailed network monitoring.
   \end{itemize}
 \end{rSubsection}
-
 %----------------------------------------------------------------------------------------
 \begin{rSubsection}{Comtex}{1997 - 2001}{Desktop, Server Support}{New York, NY}
 % \item Maintained WindowsNT servers
 % \item Wrote user logon and usage reporting shell scripts
 \end{rSubsection}
 \end{rSection}
+\pagebreak
+
 %----------------------------------------------------------------------------------------
 %	CERTIFICATIONS SECTION
 %----------------------------------------------------------------------------------------
-% \begin{rSection}{Certifications}{}
-% \item CISSP \#394506
-% \item Microsoft Certified Professional \#6310169
-% \item Palo Alto Accredited Configuration Engineer
-% \end{rSection}
+ \begin{rSection}{Certifications}{}
+     \item CISSP \#394506 (in process of recertification)
+     \item Microsoft Certified Professional \#6310169
+     \item Palo Alto Accredited Configuration Engineer
+ \end{rSection}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-% \begin{rSection}{Education}
-% {\bf Brooklyn College, CUNY} \hfill {\em June 2001} \\ 
-% B.S. in Computer Science \bf(Incomplete)
-% \end{rSection}
-%----------------------------------------------------------------------------------------
+ \begin{rSection}{Education}
+ \begin{rSubsection}{Digital Crafts}{September, 2017 - January, 2018}{Student}{Houston, TX} 
+ 	Accelerated School for Software Engineering - Full Stack Immersive Program
+  	\begin{itemize}
+	\item {Introduced to application development using popular JavaScript and Python frameworks such as NodeJS, jQuery, 	React, Express, Flask, Tornado.}
+	\item {Worked with Postgresql and Firebase databases.}
+	\item {DevOps with AWS, Heroku, Dokku and Git.}
+	\item Built and deployed web applications using the above tools.
+	\item GitHub: \url{https://github.com/xanlex/}
+
+ \end{itemize}
+\end{rSubsection}
+
+
+ {\bf Brooklyn College, CUNY} \hfill {\em June 2001} \\ 
+ 	B.S. in Computer Science (Incomplete)
+
+ \end{rSection}
+% ----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 % \begin{rSection}{Technical Strengths}
